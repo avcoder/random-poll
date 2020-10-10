@@ -25,5 +25,3 @@ const requestListener = function(req, res) {
 const server = http.createServer(requestListener)
 console.log(`listening on port ${PORT}`);
 server.listen(PORT)
-
-console.log(JSON.stringify(numbers));
