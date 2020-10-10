@@ -1,4 +1,4 @@
-// const http = require('http')
+const http = require('http')
 const PORT = 8000;
 
 function getRandom(max) {
@@ -26,4 +26,4 @@ const server = http.createServer(requestListener)
 console.log(`listening on port ${PORT}`);
 server.listen(PORT)
 
-// console.log(JSON.stringify(numbers));
+console.log(JSON.stringify(numbers));

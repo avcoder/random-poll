@@ -1,5 +1,5 @@
 {
-  "name": "poll",
+  "name": "random-poll",
   "version": "1.0.0",
   "description": "Import this to run a local server that outputs 4 random numbers in JSON format",
   "main": "index.js",
