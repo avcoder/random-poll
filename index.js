@@ -1,4 +1,4 @@
-const http = require('http')
+// const http = require('http')
 const PORT = 8000;
 
 function getRandom(max) {
@@ -17,6 +17,7 @@ function getNumbers() {
 }
 
 const requestListener = function(req, res) {
+    res.setHeader('Access-Control-Allow-Origin', '*');
     res.writeHead(200);
     res.end(JSON.stringify(getNumbers()));
 }
